@@ -1,0 +1,26 @@
+{%extends 'base.html'%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{%block content%}
+<div class="wrapper">
+    <form  class="form-signin">
+
+        <h3>welcome {{user.username}} </h3>
+
+        <p>you have successfully logged in!</p>
+
+    </form>
+    <form  class="form-signin">
+        <p>to logout and going to home page?? </p>
+        <p><a href="logout">logout</a></p>
+    </form>
+</div>
+
+{%endblock content%}
+
+</body>
+</html>

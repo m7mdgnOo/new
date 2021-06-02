@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+       setTimeout(function(){
+            window.location.href = 'home';
+         }, 5000);
+   </script>
+</head>
+<body>
+{%block content%}
+<div class="wrapper">
+    <form  class="form-signin">
+        <p>you have successfully logged out</p>
+        <p ><a href="/">click here to come back home</a></p>
+
+    </form>
+</div>
+
+{%endblock content%}
+
+</body>
+</html>
